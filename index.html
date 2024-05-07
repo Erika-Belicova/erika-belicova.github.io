@@ -1,0 +1,172 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>La technologie de demain «aujourd’hui»</title>
+    </head>
+    <body class="d-flex flex-column">
+	    
+        <! –– Path to jQuery ––>
+	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <! –– Path to Popper ––>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+
+	    <script type="text/javascript">
+		    $(function () {
+			    $("#navbarScroll li a").click(function () {
+				    if ($(this).text() == "Inscription") {
+					    $('#myModal').modal('show');
+				    }
+			    });
+		    });
+	    </script>
+	    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#"></a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+							<ul class="navbar-nav justify-content-center my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%;">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">La technologie de demain «aujourd’hui»</a>
+								</li>
+								<li class="navbar-item">
+									<a class="nav-link" href="#">Inscription</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										En savoir plus
+									</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item text-wrap" href="#">Speakers 2024</a></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><a class="dropdown-item text-wrap" href="#">Compétition «Étudiant aujourd’hui - ingénieur demain»</a></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><a class="dropdown-item text-wrap" href="#">Workshop «Plus écologique dans l’informatique»</a></li>
+									</ul>
+								</li>
+		
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Galerie
+									</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="#">2023</a></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><a class="dropdown-item" href="#">2022</a></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><a class="dropdown-item" href="#">2021 /au ligne/ </a></li>
+									</ul>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+	    </nav>
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <h1 class="fw-light mt-4 text-white">La technologie de demain «aujourd’hui»</h1>
+                    <p class="lead text-white-50">Découvrez le futur avec nous !</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-content">
+            <div class="container text-center">
+                <div class="text-center">
+                    <h1 class="fw-light mt-4 text-white">Programme d'événement 2024</h1>
+                </div>
+	            <div>
+		            <p1>
+			            <ul class="list-unstyled lead text-white-50">
+				            <li>Présentation des innovations principales dans 4 secteurs de la téchnologie par nos speakers<br>
+					            (BIG DATA, IA, Cybersécurité, Robots collaboratifs)</li>
+				            <li>Présentations des projets des finalistes de la competition
+					            “Étudiant aujourd’hui - ingénieur demain“</li>
+				            <li>Discussion sur la technologie la plus importante de 2030</li>
+				            <li>Workshop sur le théme «Plus écologique dans l’informatique</li>
+			            </ul>
+		            </p1>
+                </div>
+	            <div class="container">
+		            <ul class="list-unstyled fw-light mt-5 text-white">
+			            <li>Parc des Expositions et Centre <br>de Conventions de Toulouse (MEETT)</li>
+			            <li>14 mai 2024 à 14:30</li>
+			            <li>Toulouse</li>
+		            </ul>
+	            </div>
+            </div>
+
+            <div class="container mt-3 text-center">
+
+	            <button type="button" class="btn btn-lg btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">
+		            Je m'inscris !
+	            </button>
+            </div>
+
+	        <!-- The Modal -->
+	        <div class="modal" id="myModal">
+		        <div class="modal-dialog">
+			        <div class="modal-content">
+
+				        <!-- Modal Header -->
+				        <div class="modal-header">
+					        <h4 class="modal-title">Inscription événement<br> La technologie de demain «aujourd’hui»</h4>
+					        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				        </div>
+
+				        <!-- Modal body -->
+				        <div class="modal-body">
+					        <form action="http://test-technique.pexa4457.odns.fr/register">
+						        <div class="mb-3">
+							        <label for="name" class="form-label">Nom et prénom:</label>
+							        <input type="name" class="form-control" id="name" placeholder="Votre nom et prénom" name="name">
+						        </div>
+						        <div class="mb-3 mt-3">
+							        <label for="email" class="form-label">Adresse mail:</label>
+							        <input type="email" class="form-control" id="email" placeholder="Votre adresse mail" name="email">
+						        </div>
+						        <div class="form-check mb-3">
+							        <label class="form-check-label">
+								        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+							        </label>
+						        </div>
+						        <button type="submit" class="btn btn-primary">Envoyer</button>
+					        </form>
+
+				        </div>
+
+			        </div>
+		        </div>
+	        </div>
+        </div>
+        <footer id="sticky-footer " class="flex-shrink-0 py-4 absolute-bottom bg-dark text-white-50">
+            <div class="container text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 bootCols">Avez-vous des questions?
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 bootCols">Contactez nous !
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 bootCols">technologie-demain@aujourdhui.fr
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 bootCols">09 06 85 24 16
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </body>
+    </html>
