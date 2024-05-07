@@ -29,7 +29,7 @@ html {
 
 
 body {
-    background:url(bootstrap/img/pexels-photo-333850.jpeg);
+    background-image:url(bootstrap/img/pexels-photo-333850.jpeg);
     min-height : 100%;
     min-width : 5%;
     background-size: cover;
